@@ -15,3 +15,5 @@
 ## PoW挖矿算法
 - [说明](main3.md)
 - [代码](main3.go)
+
+![1.jpg](images/1.jpg)
