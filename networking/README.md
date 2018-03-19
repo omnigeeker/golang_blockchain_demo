@@ -3,7 +3,7 @@
 参考文章
 https://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653549384&idx=1&sn=fce9e6fa059c044a6abfcf2cc3241ba5&chksm=813a62d0b64debc657e09718d6c851ee1cc7c37d3cb5b0a4213732a331dcd4bd5aae38a5fdf4&scene=21#wechat_redirect
 
-这篇文章在[之前](main1.md)的基础上，解决多个节点网络内，如何生成块、如何通信、如何广播消息等。
+这篇文章在[之前](../blockchain/README.md)的基础上，解决多个节点网络内，如何生成块、如何通信、如何广播消息等。
 
 ## 流程
 ![2_1](images/2_1.jpg)
