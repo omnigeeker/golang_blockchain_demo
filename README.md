@@ -15,3 +15,7 @@
 ## PoW挖矿算法
 - [说明](proof-work/README.md)
 - [代码](proof-work/main.go)
+
+## PoS挖矿算法
+- [说明](proof-stack/README.md)
+- [代码](proof-stack/main.go)

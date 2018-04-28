@@ -16,7 +16,6 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/gorilla/mux"
-	"github.com/joho/godotenv"
 )
 
 const difficulty = 2
@@ -110,10 +109,6 @@ type Message struct {
 var mutex = &sync.Mutex{}
 
 func main() {
-	err := godotenv.Load()
-	if err != nil {
-		log.Fatal(err)
-	}
 
 	go func() {
 		t := time.Now()
@@ -132,8 +127,8 @@ func main() {
 // web server
 func run() error {
 	mux := makeMuxRouter()
-	httpAddr := os.Getenv("ADDR")
-	log.Println("Listening on ", os.Getenv("ADDR"))
+	httpAddr := "8080"
+	log.Println("Listening on ", httpAddr)
 	s := &http.Server{
 		Addr:           ":" + httpAddr,
 		Handler:        mux,
